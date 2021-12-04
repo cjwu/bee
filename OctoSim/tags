@@ -1,0 +1,548 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.2	//
+AddConnection	Choker.cs	/^        public void AddConnection(Connection conn) $/;"	m	class:Simulator.Choker
+AddDownload	Node.cs	/^        public void AddDownload(Transfer tran)$/;"	m	class:Simulator.Node
+AddElement	EventQueue.cs	/^		public void AddElement(TimerEvent element)$/;"	m	class:Simulator.TreeNode
+AddPeer	Node.cs	/^        public bool AddPeer(Node peer)$/;"	m	class:Simulator.Node
+AddUpload	Node.cs	/^        public void AddUpload(Transfer tran) $/;"	m	class:Simulator.Node
+AdjustDownloadRates	Node.cs	/^        public void AdjustDownloadRates()$/;"	m	class:Simulator.Node
+AdjustTransferRates	DemuxManager.cs	/^		public void AdjustTransferRates(ArrayList transfers, float total)$/;"	m	class:Simulator.DemuxManager
+AdjustUploadRates	Node.cs	/^        public void AdjustUploadRates()$/;"	m	class:Simulator.Node
+Alive	Node.cs	/^        public  bool      Alive = true;$/;"	f	class:Simulator.Node
+AlmostFinished	Node.cs	/^        private bool AlmostFinished(int piece) $/;"	m	class:Simulator.Node	file:
+AnEvent	Node.cs	/^        public AnEvent(Node n) {$/;"	m	class:Simulator.AnEvent
+AnEvent	Node.cs	/^    public class AnEvent : TimerEvent$/;"	c	namespace:Simulator
+ApplyLRUpdate	Node.cs	/^        public void ApplyLRUpdate(Node seed)$/;"	m	class:Simulator.Node
+AssignBandwidth	Sim.cs	/^        public void AssignBandwidth(Node node)$/;"	m	class:Simulator.Sim
+AssignBlocks	Node.cs	/^        public void AssignBlocks(int nblocks)$/;"	m	class:Simulator.Node
+BITTORRENT_TFT	SimParameters.cs	/^		BITTORRENT_TFT,                      \/\/ normal bit-torrent fairness mechanism$/;"	e	enum:Simulator.FairnessMechanism	file:
+BecomeSeed	Node.cs	/^        public void BecomeSeed() $/;"	m	class:Simulator.Node
+BlockPicker	BlockPicker.cs	/^		public BlockPicker()$/;"	m	class:Simulator.BlockPicker
+BlockPicker	BlockPicker.cs	/^	public class BlockPicker$/;"	c	namespace:Simulator
+CHGRATE	Logger.cs	/^		CHGRATE,$/;"	e	enum:Simulator.LogEvent	file:
+CanTransferFrom	Node.cs	/^        private bool CanTransferFrom(Connection conn)$/;"	m	class:Simulator.Node	file:
+CanTransferTo	Node.cs	/^        public bool CanTransferTo(Node peer)$/;"	m	class:Simulator.Node
+CheckReallyInterested	Node.cs	/^        public bool CheckReallyInterested(Node peer)$/;"	m	class:Simulator.Node
+CheckTooManyPeers	Node.cs	/^        public void CheckTooManyPeers() $/;"	m	class:Simulator.Node
+Choke	Connection.cs	/^        public void Choke() { $/;"	m	class:Simulator.Connection
+ChokeConnectionEvent	Node.cs	/^        public ChokeConnectionEvent(Connection c)$/;"	m	class:Simulator.ChokeConnectionEvent
+ChokeConnectionEvent	Node.cs	/^    public class ChokeConnectionEvent : TimerEvent $/;"	c	namespace:Simulator
+ChokeUnchoke	Choker.cs	/^        public void ChokeUnchoke() $/;"	m	class:Simulator.Choker
+Choker	Choker.cs	/^        public Choker(Node n, Sim s)$/;"	m	class:Simulator.Choker
+Choker	Choker.cs	/^    public class Choker$/;"	c	namespace:Simulator
+ChokerEvent	Node.cs	/^        public ChokerEvent(Choker choker) $/;"	m	class:Simulator.ChokerEvent
+ChokerEvent	Node.cs	/^    public class ChokerEvent : TimerEvent $/;"	c	namespace:Simulator
+ChoosingOrderComparer	Node.cs	/^            public ChoosingOrderComparer(int[] ordering)$/;"	m	class:Simulator.Node.ChoosingOrderComparer
+ChoosingOrderComparer	Node.cs	/^        class ChoosingOrderComparer : IComparer$/;"	c	class:Simulator.Node
+ChoosingPolicy	SimParameters.cs	/^	public enum ChoosingPolicy$/;"	g	namespace:Simulator
+Compare	Choker.cs	/^        public int Compare(object x, object y) $/;"	m	class:Simulator.PreferredComparer
+Compare	Choker.cs	/^        public int Compare(object x, object y)$/;"	m	class:Simulator.OracleRateComparer
+Compare	DemuxManager.cs	/^		public int Compare(object x, object y)$/;"	m	class:Simulator.TransferRateComparer
+Compare	Node.cs	/^            public int Compare(object x, object y)$/;"	m	class:Simulator.Node.ChoosingOrderComparer
+Compare	Node.cs	/^            public int Compare(object x, object y)$/;"	m	class:Simulator.Node.ServeCountComparer
+Compare	Node.cs	/^        public int Compare(Object x, Object y)$/;"	m	class:Simulator.LinkCapComparer
+Compare	Node.cs	/^        public int Compare(object x, object y)$/;"	m	class:Simulator.DownloadRateComparer
+Compare	Node.cs	/^        public int Compare(object x, object y)$/;"	m	class:Simulator.JoinTimeComparer
+Compare	Node.cs	/^        public int Compare(object x, object y)$/;"	m	class:Simulator.PieceAvailComparer
+Compare	Sim.cs	/^            public int Compare(Object x, Object y)$/;"	m	class:Simulator.Sim.UpCapComparer
+ComputeDistances	Stats.cs	/^		void ComputeDistances() {$/;"	m	class:Simulator.UtilDumpEvent	file:
+ConnectToPeer	Node.cs	/^        private bool ConnectToPeer(Node peer)$/;"	m	class:Simulator.Node	file:
+Connection	Connection.cs	/^        public Connection(Node me, Node remote, Sim s, int n_pieces)$/;"	m	class:Simulator.Connection
+Connection	Connection.cs	/^    public class Connection $/;"	c	namespace:Simulator
+CreateNWBEvent	ProtocolMain.cs	/^            public CreateNWBEvent(Sim s) $/;"	m	class:Simulator.ProtocolSim.CreateNWBEvent
+CreateNWBEvent	ProtocolMain.cs	/^        class CreateNWBEvent : TimerEvent $/;"	c	class:Simulator.ProtocolSim
+CreateNode	ProtocolMain.cs	/^        public static void CreateNode()$/;"	m	class:Simulator.ProtocolSim
+CreateNode	ProtocolMain.cs	/^        public static void CreateNode(LinkCap lc) $/;"	m	class:Simulator.ProtocolSim
+CreateNode	ProtocolMain.cs	/^        public static void CreateNode(long ttl)$/;"	m	class:Simulator.ProtocolSim
+CreateNode	Sim.cs	/^        public Node CreateNode()$/;"	m	class:Simulator.Sim
+CreateNodeEvent	ProtocolMain.cs	/^    public class CreateNodeEvent : TimerEvent$/;"	c	namespace:Simulator
+CreatePFCBatchEvent	ProtocolMain.cs	/^            public CreatePFCBatchEvent() {$/;"	m	class:Simulator.ProtocolSim.CreatePFCBatchEvent
+CreatePFCBatchEvent	ProtocolMain.cs	/^        class CreatePFCBatchEvent : TimerEvent {$/;"	c	class:Simulator.ProtocolSim
+CreateSeeds	ProtocolMain.cs	/^        private static void CreateSeeds(int n_seeds)$/;"	m	class:Simulator.ProtocolSim	file:
+DebugDump	Transfer.cs	/^		public void DebugDump()$/;"	m	class:Simulator.Transfer
+DeleteNode	EventQueue.cs	/^		private TreeNode DeleteNode(long i, TreeNode t, bool DoSplay) $/;"	m	class:Simulator.EventQueue	file:
+DeltaPerturb	Choker.cs	/^        private void DeltaPerturb(ArrayList list)$/;"	m	class:Simulator.Choker	file:
+DemuxManager	DemuxManager.cs	/^		public DemuxManager(Node n)$/;"	m	class:Simulator.DemuxManager
+DemuxManager	DemuxManager.cs	/^	public class DemuxManager$/;"	c	namespace:Simulator
+DoFinish	Node.cs	/^        public void DoFinish()$/;"	m	class:Simulator.Node
+DoFinishEvent	Node.cs	/^            public DoFinishEvent(Node n) { $/;"	m	class:Simulator.Node.DoFinishEvent
+DoFinishEvent	Node.cs	/^        class DoFinishEvent : TimerEvent {$/;"	c	class:Simulator.Node
+DoRealFinish	Node.cs	/^		public void DoRealFinish() $/;"	m	class:Simulator.Node
+DoingBlockTFT	SimParameters.cs	/^		public static bool DoingBlockTFT() $/;"	m	class:Simulator.SimParameters
+Done	Choker.cs	/^        public void Done() { m_Done = true; }$/;"	m	class:Simulator.Choker
+DownCap	Node.cs	/^        public float DownCap $/;"	p	class:Simulator.Node
+DownloadIfPossible	Node.cs	/^        public bool DownloadIfPossible(Connection conn)$/;"	m	class:Simulator.Node
+DownloadRateComparer	Node.cs	/^    public class DownloadRateComparer : IComparer $/;"	c	namespace:Simulator
+Downloaded	Connection.cs	/^        public long Downloaded {$/;"	p	class:Simulator.Connection
+Dump	Node.cs	/^        public void Dump(StreamWriter stream)$/;"	m	class:Simulator.Node
+EPSILON	SimParameters.cs	/^		public static float EPSILON = 0.000001f;$/;"	f	class:Simulator.SimParameters
+Elements	EventQueue.cs	/^		public ListElement Elements$/;"	p	class:Simulator.TreeNode
+EventQueue	EventQueue.cs	/^	class EventQueue$/;"	c	namespace:Simulator
+FEC	SimParameters.cs	/^		public static float FEC = 1.0f;                                      \/\/ FEC = k ==> send k times as many unique packets$/;"	f	class:Simulator.SimParameters
+FINISHED	Logger.cs	/^		FINISHED,$/;"	e	enum:Simulator.LogEvent	file:
+FROMTRACE_STAYTIME	SimParameters.cs	/^		FROMTRACE_STAYTIME \/\/ kind of overloaded use of this variable$/;"	e	enum:Simulator.StayTimeModel	file:
+FairnessEnforcer	FairnessEnforcer.cs	/^		public FairnessEnforcer(Node node, Sim s)$/;"	m	class:Simulator.FairnessEnforcer
+FairnessEnforcer	FairnessEnforcer.cs	/^	public class FairnessEnforcer$/;"	c	namespace:Simulator
+FairnessMechanism	SimParameters.cs	/^	public enum FairnessMechanism$/;"	g	namespace:Simulator
+FastCanTransferTo	Node.cs	/^		public bool FastCanTransferTo(Connection conn)$/;"	m	class:Simulator.Node
+FastIsChoking	Stats.cs	/^		bool FastIsChoking(Node a, Connection conn)$/;"	m	class:Simulator.UtilDumpEvent	file:
+FindPieceToDownload	Node.cs	/^        private int  FindPieceToDownload(Connection conn)$/;"	m	class:Simulator.Node	file:
+Finish	Logger.cs	/^		public static void Finish()$/;"	m	class:Simulator.Logger
+Finish	Transfer.cs	/^		public void Finish()$/;"	m	class:Simulator.Transfer
+FinishDownload	Node.cs	/^        public void FinishDownload(Transfer tran)$/;"	m	class:Simulator.Node
+FinishUpload	Connection.cs	/^        public void FinishUpload() { $/;"	m	class:Simulator.Connection
+FinishUpload	Node.cs	/^        public void FinishUpload(Transfer tran)$/;"	m	class:Simulator.Node
+Finished	Node.cs	/^        private bool Finished()$/;"	m	class:Simulator.Node	file:
+FireTime	PieceDeliveryEvent.cs	/^		public long FireTime { $/;"	p	class:Simulator.PieceDeliveryEvent
+FixInterests	Stats.cs	/^		void FixInterests()$/;"	m	class:Simulator.UtilDumpEvent	file:
+FloatCompare	Sim.cs	/^        public static int FloatCompare(float xr, float yr)$/;"	m	class:Simulator.Sim
+From	Transfer.cs	/^		public Node From {$/;"	p	class:Simulator.Transfer
+GenerateDependents	SimParameters.cs	/^		public static void GenerateDependents() $/;"	m	class:Simulator.SimParameters
+GenerateNodeBandwidths	Sim.cs	/^        public static LinkCap GenerateNodeBandwidths()$/;"	m	class:Simulator.WorkloadGenerator
+GenerateNodeStayTime	Sim.cs	/^        public long GenerateNodeStayTime()$/;"	m	class:Simulator.WorkloadGenerator
+GeneratePareto	Sim.cs	/^        private double GeneratePareto()$/;"	m	class:Simulator.WorkloadGenerator	file:
+GenerateSeedBandwidth	Sim.cs	/^        public static float GenerateSeedBandwidth()$/;"	m	class:Simulator.WorkloadGenerator
+GetAvailability	Node.cs	/^        public int  GetAvailability(int piece) { return m_PieceInfoArray[piece].availability; }$/;"	m	class:Simulator.Node
+GetAverageRate	RateMeasurer.cs	/^		public float GetAverageRate() $/;"	m	class:Simulator.RateMeasurer
+GetAverageRate	RateMeasurer.cs	/^		public float GetAverageRate()$/;"	m	class:Simulator.NewRateMeasurer
+GetBWAwareRandomNodes	Sim.cs	/^		public ArrayList GetBWAwareRandomNodes(int n_nodes, Node$/;"	m	class:Simulator.Sim
+GetConnection	Node.cs	/^		public Connection GetConnection(int id)	{return (Connection) m_Connections[id];}$/;"	m	class:Simulator.Node
+GetConnections	Node.cs	/^        public ICollection GetConnections() $/;"	m	class:Simulator.Node
+GetDownloadRate	Connection.cs	/^        public float GetDownloadRate() { return m_DownMeasurer.GetAverageRate(); }$/;"	m	class:Simulator.Connection
+GetEnumerator	Sim.cs	/^        public IEnumerator GetEnumerator() $/;"	m	class:Simulator.Sim
+GetInitialPeerList	ProtocolMain.cs	/^        public ArrayList GetInitialPeerList(Node n)$/;"	m	class:Simulator.Oracle
+GetMorePeers	Node.cs	/^        public void GetMorePeers()$/;"	m	class:Simulator.Node
+GetMorePeers	ProtocolMain.cs	/^        public ArrayList GetMorePeers(Node n)$/;"	m	class:Simulator.Oracle
+GetNewDownloadRate	Node.cs	/^        public float GetNewDownloadRate() $/;"	m	class:Simulator.Node
+GetNewTransferRate	DemuxManager.cs	/^		public float GetNewTransferRate(ArrayList transfers, float total)$/;"	m	class:Simulator.DemuxManager
+GetNewUploadRate	Node.cs	/^        public float GetNewUploadRate() $/;"	m	class:Simulator.Node
+GetNextEvents	EventQueue.cs	/^		public ListElement GetNextEvents()$/;"	m	class:Simulator.EventQueue
+GetNextTime	EventQueue.cs	/^		public long GetNextTime()$/;"	m	class:Simulator.EventQueue
+GetOtherEnd	Transfer.cs	/^		public Node GetOtherEnd(Node me)$/;"	m	class:Simulator.Transfer
+GetRandomNodes	Sim.cs	/^        public ArrayList GetRandomNodes(int n_nodes, Node node_to_avoid) $/;"	m	class:Simulator.Sim
+GetRate	Choker.cs	/^        private float GetRate(Connection c)$/;"	m	class:Simulator.OracleRateComparer	file:
+GetServeCount	Node.cs	/^        public int  GetServeCount(int piece) { return m_ServeCount[piece]; }$/;"	m	class:Simulator.Node
+GetTime	EventQueue.cs	/^		public long GetTime$/;"	p	class:Simulator.EventQueue
+GetTimeOfJob	WorkloadProcessor.cs	/^	private long GetTimeOfJob(string job) $/;"	m	class:Simulator.WorkloadProcessor	file:
+GetTotalDownloadRate	Node.cs	/^        public float GetTotalDownloadRate() $/;"	m	class:Simulator.Node
+GetTotalTransferRate	Node.cs	/^        private float GetTotalTransferRate(ArrayList transfers)$/;"	m	class:Simulator.Node	file:
+GetTotalUploadRate	Node.cs	/^        public float GetTotalUploadRate() $/;"	m	class:Simulator.Node
+GetUnfinishedPieces	Node.cs	/^        private int GetUnfinishedPieces() {$/;"	m	class:Simulator.Node	file:
+GetUploadRate	Connection.cs	/^        public float GetUploadRate() { return m_UpMeasurer.GetAverageRate(); }$/;"	m	class:Simulator.Connection
+GotUnchoke	Node.cs	/^        public void GotUnchoke(Node peer)$/;"	m	class:Simulator.Node
+GraphDumpEvent	Stats.cs	/^		public GraphDumpEvent(Sim s) $/;"	m	class:Simulator.GraphDumpEvent
+GraphDumpEvent	Stats.cs	/^	public class GraphDumpEvent : TimerEvent$/;"	c	namespace:Simulator
+HandlePeerConnect	Node.cs	/^        public bool HandlePeerConnect(Node peer)$/;"	m	class:Simulator.Node
+HasFired	PieceDeliveryEvent.cs	/^		private bool HasFired(long timeNow) {$/;"	m	class:Simulator.PieceDeliveryEvent	file:
+HasPiece	Node.cs	/^        public bool HasPiece(int piece) { return m_PieceInfoArray[piece].have; }$/;"	m	class:Simulator.Node
+ID	Node.cs	/^        public   int ID $/;"	p	class:Simulator.Node
+Initialize	Logger.cs	/^		public static void Initialize(Sim s)$/;"	m	class:Simulator.Logger
+Initialize	ProtocolMain.cs	/^        public static void Initialize()$/;"	m	class:Simulator.ProtocolSim
+InsertNode	EventQueue.cs	/^		private TreeNode InsertNode(long i, TreeNode t, TimerEvent obj) $/;"	m	class:Simulator.EventQueue	file:
+InsertObject	EventQueue.cs	/^		public void InsertObject(long point, TimerEvent obj)$/;"	m	class:Simulator.EventQueue
+Interested	Connection.cs	/^        public bool Interested {$/;"	p	class:Simulator.Connection
+IsChoking	Connection.cs	/^        public bool IsChoking() { return m_Choking; }$/;"	m	class:Simulator.Connection
+IsChoking	Node.cs	/^        public bool IsChoking(Node peer) $/;"	m	class:Simulator.Node
+IsDownload	Transfer.cs	/^		public bool IsDownload(Node me)$/;"	m	class:Simulator.Transfer
+IsDownloading	Connection.cs	/^        public bool   IsDownloading {$/;"	p	class:Simulator.Connection
+IsDownloading	Node.cs	/^        public bool IsDownloading(int piece) { return m_PieceInfoArray[piece].is_downloading; }$/;"	m	class:Simulator.Node
+IsEmpty	EventQueue.cs	/^		public bool IsEmpty$/;"	p	class:Simulator.EventQueue
+IsInterested	Connection.cs	/^        public bool IsInterested() { return m_Interested; }$/;"	m	class:Simulator.Connection
+IsInterested	Node.cs	/^        public bool IsInterested(Node peer) $/;"	m	class:Simulator.Node
+IsPeer	Node.cs	/^        public bool IsPeer(int id) { return m_Connections.ContainsKey(id); }$/;"	m	class:Simulator.Node
+IsSeed	Node.cs	/^        public  bool      IsSeed $/;"	p	class:Simulator.Node
+IsUploading	Connection.cs	/^        public bool IsUploading() {$/;"	m	class:Simulator.Connection
+JOIN	Logger.cs	/^		JOIN,$/;"	e	enum:Simulator.LogEvent	file:
+JoinNetwork	Node.cs	/^        public void JoinNetwork() $/;"	m	class:Simulator.Node
+JoinTimeComparer	Node.cs	/^    public class JoinTimeComparer : IComparer$/;"	c	namespace:Simulator
+KillNode	ProtocolMain.cs	/^        public static void KillNode(Node n)$/;"	m	class:Simulator.ProtocolSim
+KillNode	Sim.cs	/^        public void KillNode(Node node) $/;"	m	class:Simulator.Sim
+KillNodeEvent	ProtocolMain.cs	/^        public KillNodeEvent(Node node) $/;"	m	class:Simulator.KillNodeEvent
+KillNodeEvent	ProtocolMain.cs	/^    public class KillNodeEvent : TimerEvent $/;"	c	namespace:Simulator
+LEAVE	Logger.cs	/^		LEAVE,$/;"	e	enum:Simulator.LogEvent	file:
+LR	SimParameters.cs	/^		LR,$/;"	e	enum:Simulator.ChoosingPolicy	file:
+Left	EventQueue.cs	/^		public TreeNode Left$/;"	p	class:Simulator.TreeNode
+LinkCap	Node.cs	/^        public LinkCap(float d, float u) $/;"	m	class:Simulator.LinkCap
+LinkCap	Node.cs	/^    public class LinkCap$/;"	c	namespace:Simulator
+LinkCapComparer	Node.cs	/^    public class LinkCapComparer : IComparer$/;"	c	namespace:Simulator
+ListElement	ListElement.cs	/^		public ListElement(TimerEvent obj)$/;"	m	class:Simulator.ListElement
+ListElement	ListElement.cs	/^	class ListElement$/;"	c	namespace:Simulator
+LogEvent	Logger.cs	/^	public enum LogEvent $/;"	g	namespace:Simulator
+Logger	Logger.cs	/^	public class Logger$/;"	c	namespace:Simulator
+MAX_NODES	Node.cs	/^        public static int     MAX_NODES = 1100;$/;"	f	class:Simulator.Node
+Main	Main.cs	/^        public static int Main(String[] args)$/;"	m	class:Simulator.MainWrapper
+MainWrapper	Main.cs	/^    public class MainWrapper $/;"	c	namespace:Simulator
+MorePeersEvent	Node.cs	/^		public MorePeersEvent(Node n, bool t)$/;"	m	class:Simulator.MorePeersEvent
+MorePeersEvent	Node.cs	/^        public MorePeersEvent(Node n) $/;"	m	class:Simulator.MorePeersEvent
+MorePeersEvent	Node.cs	/^    public class MorePeersEvent : TimerEvent$/;"	c	namespace:Simulator
+N	EventQueue.cs	/^		private TreeNode N = new TreeNode();$/;"	f	class:Simulator.EventQueue	file:
+NDownloads	Node.cs	/^        public  int NDownloads $/;"	p	class:Simulator.Node
+NFinishedPieces	Node.cs	/^		public int NFinishedPieces { get { return m_FinishedPieces; } }$/;"	p	class:Simulator.Node
+NPieces	Node.cs	/^		public int NPieces { get { return m_NPieces; } }$/;"	p	class:Simulator.Node
+NUploads	Node.cs	/^        public  int NUploads $/;"	p	class:Simulator.Node
+NewRateMeasurer	RateMeasurer.cs	/^		public NewRateMeasurer(Sim s, long window)$/;"	m	class:Simulator.NewRateMeasurer
+NewRateMeasurer	RateMeasurer.cs	/^	public class NewRateMeasurer $/;"	c	namespace:Simulator
+Node	Node.cs	/^        public Node(Sim s, Oracle ora, int n_pieces)$/;"	m	class:Simulator.Node
+Node	Node.cs	/^    public class Node $/;"	c	namespace:Simulator
+NodeStatus	Node.cs	/^    public enum NodeStatus $/;"	g	namespace:Simulator
+NumNodes	Sim.cs	/^        public int NumNodes() $/;"	m	class:Simulator.Sim
+OLD_CODE	Node.cs	1;"	d	file:
+OVERALL_BLOCK_TFT	SimParameters.cs	/^		OVERALL_BLOCK_TFT,                   \/\/ just keep a count of the total #bytes across all connections$/;"	e	enum:Simulator.FairnessMechanism	file:
+OnUploadAvailable	Node.cs	/^        public void OnUploadAvailable()$/;"	m	class:Simulator.Node
+Oracle	ProtocolMain.cs	/^        public Oracle(Sim s)  $/;"	m	class:Simulator.Oracle
+Oracle	ProtocolMain.cs	/^    public class Oracle $/;"	c	namespace:Simulator
+OracleRateComparer	Choker.cs	/^        public OracleRateComparer(Node n)$/;"	m	class:Simulator.OracleRateComparer
+OracleRateComparer	Choker.cs	/^    public class OracleRateComparer : IComparer$/;"	c	namespace:Simulator
+OtherEndConnection	Connection.cs	/^        public Connection OtherEndConnection = null;$/;"	f	class:Simulator.Connection
+PAIRWISE_BLOCK_TFT	SimParameters.cs	/^		PAIRWISE_BLOCK_TFT,                  \/\/ keep track of #bytes with each peer$/;"	e	enum:Simulator.FairnessMechanism	file:
+PARETO_STAYTIME	SimParameters.cs	/^		PARETO_STAYTIME,$/;"	e	enum:Simulator.StayTimeModel	file:
+PCEvent	Choker.cs	/^            public PCEvent(Choker choker)$/;"	m	class:Simulator.Choker.PCEvent
+PCEvent	Choker.cs	/^        class PCEvent : TimerEvent$/;"	c	class:Simulator.Choker
+Peer	Connection.cs	/^        public Node Peer $/;"	p	class:Simulator.Connection
+PerformChoking	Choker.cs	/^        private void PerformChoking()$/;"	m	class:Simulator.Choker	file:
+Piece	Transfer.cs	/^		public int Piece {$/;"	p	class:Simulator.Transfer
+PieceAvailComparer	Node.cs	/^        public PieceAvailComparer(Node n)$/;"	m	class:Simulator.PieceAvailComparer
+PieceAvailComparer	Node.cs	/^    public class PieceAvailComparer : IComparer$/;"	c	namespace:Simulator
+PieceDeliveryEvent	PieceDeliveryEvent.cs	/^		public PieceDeliveryEvent(Transfer tran, long fireAt, long timeNow) {$/;"	m	class:Simulator.PieceDeliveryEvent
+PieceDeliveryEvent	PieceDeliveryEvent.cs	/^	public class PieceDeliveryEvent : TimerEvent {$/;"	c	namespace:Simulator
+PieceInfo	Node.cs	/^    class PieceInfo $/;"	c	namespace:Simulator
+Position	EventQueue.cs	/^		public long Position$/;"	p	class:Simulator.TreeNode
+PreferredComparer	Choker.cs	/^        public PreferredComparer(Node n) $/;"	m	class:Simulator.PreferredComparer
+PreferredComparer	Choker.cs	/^    public class PreferredComparer : IComparer $/;"	c	namespace:Simulator
+PrintAll	SimParameters.cs	/^		public static void PrintAll()$/;"	m	class:Simulator.SimParameters
+ProcessForTime	Sim.cs	/^        public void ProcessForTime(long ms) $/;"	m	class:Simulator.Sim
+ProcessJob	WorkloadProcessor.cs	/^	public void ProcessJob(string jobstring) $/;"	m	class:Simulator.WorkloadProcessor
+ProcessTill	Sim.cs	/^        public bool ProcessTill(long abstime) $/;"	m	class:Simulator.Sim
+ProcessWorkload	WorkloadProcessor.cs	/^	void ProcessWorkload(string workloadfile)$/;"	m	class:Simulator.WorkloadProcessor	file:
+ProtocolSim	ProtocolMain.cs	/^    public class ProtocolSim $/;"	c	namespace:Simulator
+RAND_PERMUTATION	SimParameters.cs	/^		RAND_PERMUTATION$/;"	e	enum:Simulator.ChoosingPolicy	file:
+RECV	Logger.cs	/^		RECV,$/;"	e	enum:Simulator.LogEvent	file:
+RaiseSimulationEvent	Sim.cs	/^        public void RaiseSimulationEvent(long ms, TimerEvent obj) $/;"	m	class:Simulator.Sim
+RandomNode	Sim.cs	/^        public Node RandomNode() $/;"	m	class:Simulator.Sim
+Rate	Transfer.cs	/^		public float Rate { $/;"	p	class:Simulator.Transfer
+RateMeasurer	RateMeasurer.cs	/^		public RateMeasurer(int n_samples)$/;"	m	class:Simulator.RateMeasurer
+RateMeasurer	RateMeasurer.cs	/^	public class RateMeasurer$/;"	c	namespace:Simulator
+ReSchedule	PieceDeliveryEvent.cs	/^		public void ReSchedule(Sim simulator, long rescheduleAt)$/;"	m	class:Simulator.PieceDeliveryEvent
+ReceivePiece	Node.cs	/^        public void ReceivePiece(Node peer, int piece, long amount) $/;"	m	class:Simulator.Node
+RecvdPiece	Connection.cs	/^        public void RecvdPiece(int piece) $/;"	m	class:Simulator.Connection
+RemoveConnection	Choker.cs	/^        public void RemoveConnection(Connection conn) {$/;"	m	class:Simulator.Choker
+RemovePeer	Node.cs	/^        public void RemovePeer(Node peer)$/;"	m	class:Simulator.Node
+Reschedule	Transfer.cs	/^		public void Reschedule(float newRate)$/;"	m	class:Simulator.Transfer
+ResetTreeNode	EventQueue.cs	/^		public void ResetTreeNode(long position, TimerEvent element)$/;"	m	class:Simulator.TreeNode
+Right	EventQueue.cs	/^		public TreeNode Right$/;"	p	class:Simulator.TreeNode
+RotateOUGuy	Choker.cs	/^        public void RotateOUGuy()$/;"	m	class:Simulator.Choker
+SEEDIFY	Logger.cs	/^		SEEDIFY,$/;"	e	enum:Simulator.LogEvent	file:
+SEND	Logger.cs	/^		SEND,$/;"	e	enum:Simulator.LogEvent	file:
+SRCS	Makefile	/^SRCS = $(wildcard *.cs)$/;"	m
+STATUS_DOWNLOADER	Node.cs	/^        STATUS_DOWNLOADER$/;"	e	enum:Simulator.NodeStatus	file:
+STATUS_SEED	Node.cs	/^        STATUS_SEED,$/;"	e	enum:Simulator.NodeStatus	file:
+SanityCheck	Node.cs	/^        public void SanityCheck()$/;"	m	class:Simulator.Node
+ScheduleNWBJoins	ProtocolMain.cs	/^        public static void ScheduleNWBJoins()$/;"	m	class:Simulator.ProtocolSim
+SchedulePFCJoins	ProtocolMain.cs	/^        public static void SchedulePFCJoins()$/;"	m	class:Simulator.ProtocolSim
+ScheduleSomeJoins	ProtocolMain.cs	/^        public static void ScheduleSomeJoins()$/;"	m	class:Simulator.ProtocolSim
+ScheduleSomeJoins	ProtocolMain.cs	/^        public static void ScheduleSomeJoins(int howmany)$/;"	m	class:Simulator.ProtocolSim
+ScheduleSomeJoinsEvent	ProtocolMain.cs	/^    public class ScheduleSomeJoinsEvent : TimerEvent $/;"	c	namespace:Simulator
+SendLRUpdateEvent	Node.cs	/^            public SendLRUpdateEvent(Sim s, Node node) $/;"	m	class:Simulator.Node.SendLRUpdateEvent
+SendLRUpdateEvent	Node.cs	/^        public class SendLRUpdateEvent : TimerEvent$/;"	c	class:Simulator.Node
+SendPiece	Node.cs	/^        public void SendPiece(Node peer, int piece, long amount)$/;"	m	class:Simulator.Node
+SenderConnection	Transfer.cs	/^		public Connection SenderConnection { $/;"	p	class:Simulator.Transfer
+ServeCountComparer	Node.cs	/^			public ServeCountComparer() {$/;"	m	class:Simulator.Node.ServeCountComparer
+ServeCountComparer	Node.cs	/^            public ServeCountComparer(Node s) { $/;"	m	class:Simulator.Node.ServeCountComparer
+ServeCountComparer	Node.cs	/^        class ServeCountComparer : IComparer$/;"	c	class:Simulator.Node
+SetSeed	Node.cs	/^			public void SetSeed(Node s) {$/;"	m	class:Simulator.Node.ServeCountComparer
+Shuffle	Sim.cs	/^        public void Shuffle(ArrayList array, int start, int length)$/;"	m	class:Simulator.Sim
+Shuffle	Sim.cs	/^        public void Shuffle(Object[] array)$/;"	m	class:Simulator.Sim
+Shuffle	Sim.cs	/^        public void Shuffle(int[] array)$/;"	m	class:Simulator.Sim
+Sim	Sim.cs	/^        public Sim()$/;"	m	class:Simulator.Sim
+Sim	Sim.cs	/^    public class Sim $/;"	c	namespace:Simulator
+SimParameters	SimParameters.cs	/^	public class SimParameters$/;"	c	namespace:Simulator
+Simulator	BlockPicker.cs	/^namespace Simulator$/;"	n
+Simulator	Choker.cs	/^namespace Simulator$/;"	n
+Simulator	Connection.cs	/^namespace Simulator$/;"	n
+Simulator	DemuxManager.cs	/^namespace Simulator$/;"	n
+Simulator	EventQueue.cs	/^namespace Simulator$/;"	n
+Simulator	FairnessEnforcer.cs	/^namespace Simulator$/;"	n
+Simulator	ListElement.cs	/^namespace Simulator$/;"	n
+Simulator	Logger.cs	/^namespace Simulator$/;"	n
+Simulator	Main.cs	/^namespace Simulator$/;"	n
+Simulator	Node.cs	/^namespace Simulator $/;"	n
+Simulator	PieceDeliveryEvent.cs	/^namespace Simulator {$/;"	n
+Simulator	ProtocolMain.cs	/^namespace Simulator$/;"	n
+Simulator	RateMeasurer.cs	/^namespace Simulator$/;"	n
+Simulator	Sim.cs	/^namespace Simulator$/;"	n
+Simulator	SimParameters.cs	/^namespace Simulator$/;"	n
+Simulator	Stats.cs	/^namespace Simulator$/;"	n
+Simulator	Transfer.cs	/^namespace Simulator$/;"	n
+Simulator	WorkloadProcessor.cs	/^namespace Simulator$/;"	n
+Splay	EventQueue.cs	/^		private TreeNode Splay(long i, TreeNode t) $/;"	m	class:Simulator.EventQueue	file:
+StartUpload	Connection.cs	/^        public Transfer StartUpload(Sim s, int piece, long amount, float rate)$/;"	m	class:Simulator.Connection
+Stats	Stats.cs	/^	public class Stats $/;"	c	namespace:Simulator
+StayTimeModel	SimParameters.cs	/^	public enum StayTimeModel $/;"	g	namespace:Simulator
+TeeWriter	SimParameters.cs	/^		public TeeWriter(string file) : base(file, false) {$/;"	m	class:Simulator.TeeWriter
+TeeWriter	SimParameters.cs	/^	public class TeeWriter : StreamWriter {$/;"	c	namespace:Simulator
+TimeNow	Sim.cs	/^        public long TimeNow()$/;"	m	class:Simulator.Sim
+TimerEvent	Sim.cs	/^    public interface TimerEvent $/;"	i	namespace:Simulator
+To	Transfer.cs	/^		public Node To {$/;"	p	class:Simulator.Transfer
+ToFinishPieces	Node.cs	/^        public int ToFinishPieces {$/;"	p	class:Simulator.Node
+TooManyPeersEvent	Node.cs	/^        public TooManyPeersEvent(Node n) $/;"	m	class:Simulator.TooManyPeersEvent
+TooManyPeersEvent	Node.cs	/^    public class TooManyPeersEvent : TimerEvent$/;"	c	namespace:Simulator
+TotalReceived	Node.cs	/^        public long TotalReceived { get { return m_TotalReceived; } }$/;"	p	class:Simulator.Node
+TotalSent	Node.cs	/^        public long TotalSent { get { return m_TotalSent; } }$/;"	p	class:Simulator.Node
+Transfer	Transfer.cs	/^		public Transfer(Connection conn, Sim s, Node sndr, Node rcpt, int piece, long amount, float rate)$/;"	m	class:Simulator.Transfer
+Transfer	Transfer.cs	/^	public class Transfer$/;"	c	namespace:Simulator
+TransferRateComparer	DemuxManager.cs	/^	public class TransferRateComparer : IComparer $/;"	c	namespace:Simulator
+TransferringFrom	Node.cs	/^        public bool TransferringFrom(Node peer)$/;"	m	class:Simulator.Node
+TransferringTo	Node.cs	/^        public bool TransferringTo(Node peer)$/;"	m	class:Simulator.Node
+TreeNode	EventQueue.cs	/^		public TreeNode()$/;"	m	class:Simulator.TreeNode
+TreeNode	EventQueue.cs	/^		public TreeNode(long position, TimerEvent element)$/;"	m	class:Simulator.TreeNode
+TreeNode	EventQueue.cs	/^	class TreeNode$/;"	c	namespace:Simulator
+TryDownloadEvent	Node.cs	/^        public TryDownloadEvent(Node n, Connection conn)$/;"	m	class:Simulator.TryDownloadEvent
+TryDownloadEvent	Node.cs	/^    public class TryDownloadEvent : TimerEvent $/;"	c	namespace:Simulator
+TryRampUp	DemuxManager.cs	/^		public float TryRampUp(Transfer tran, ArrayList transfers, float total, float newRate)$/;"	m	class:Simulator.DemuxManager
+TryRampUp	Node.cs	/^        public float TryRampUp(Transfer tran, float newRate)$/;"	m	class:Simulator.Node
+UNIFORM_STAYTIME	SimParameters.cs	/^		UNIFORM_STAYTIME,$/;"	e	enum:Simulator.StayTimeModel	file:
+UTIL	Logger.cs	/^		UTIL,$/;"	e	enum:Simulator.LogEvent	file:
+UnFinished	Node.cs	/^        public bool UnFinished(int piece) { return m_PieceInfoArray[piece].downloaded_bits > 0; }$/;"	m	class:Simulator.Node
+Unchoke	Connection.cs	/^        public void Unchoke() { $/;"	m	class:Simulator.Connection
+UpCap	Node.cs	/^        public float UpCap $/;"	p	class:Simulator.Node
+UpCapComparer	Sim.cs	/^        public class UpCapComparer : IComparer {$/;"	c	class:Simulator.Sim
+Update	RateMeasurer.cs	/^		public void Update(float amount)$/;"	m	class:Simulator.NewRateMeasurer
+Update	RateMeasurer.cs	/^		public void Update(float rate)$/;"	m	class:Simulator.RateMeasurer
+UpdateDownloadRate	Connection.cs	/^        public void UpdateDownloadRate(float amount) { m_DownMeasurer.Update(amount); }$/;"	m	class:Simulator.Connection
+UpdateDownloadRate	Node.cs	/^        public void UpdateDownloadRate(Node peer, float amount  \/* in kilobits *\/ )$/;"	m	class:Simulator.Node
+UpdatePieceAvail	Node.cs	/^        public void UpdatePieceAvail(Node peer, int piece, bool start_download)$/;"	m	class:Simulator.Node
+UpdatePieceInterest	Connection.cs	/^        public void UpdatePieceInterest(int piece)$/;"	m	class:Simulator.Connection
+UpdateSent	Node.cs	/^        public void UpdateSent(Node peer, int piece, long amount)$/;"	m	class:Simulator.Node
+UpdateUploadRate	Connection.cs	/^        public void UpdateUploadRate(float amount) { m_UpMeasurer.Update(amount); }$/;"	m	class:Simulator.Connection
+UpdateUploadRate	Node.cs	/^        public void UpdateUploadRate(Node peer, float amount \/* in kilobits *\/) $/;"	m	class:Simulator.Node
+Uploaded	Connection.cs	/^        public long Uploaded $/;"	p	class:Simulator.Connection
+UtilDumpEvent	Stats.cs	/^		public UtilDumpEvent(Sim s) {$/;"	m	class:Simulator.UtilDumpEvent
+UtilDumpEvent	Stats.cs	/^	public class UtilDumpEvent : TimerEvent$/;"	c	namespace:Simulator
+WorkloadGenerator	Sim.cs	/^    public class WorkloadGenerator {$/;"	c	namespace:Simulator
+WorkloadProcessor	WorkloadProcessor.cs	/^	public WorkloadProcessor(string workloadfile)$/;"	m	class:Simulator.WorkloadProcessor
+WorkloadProcessor	WorkloadProcessor.cs	/^    public class WorkloadProcessor$/;"	c	namespace:Simulator
+WriteLine	SimParameters.cs	/^		public override void WriteLine(string format, params object[] arg)$/;"	m	class:Simulator.TeeWriter
+WriteLine	SimParameters.cs	/^		public override void WriteLine(string value)$/;"	m	class:Simulator.TeeWriter
+Zombify	PieceDeliveryEvent.cs	/^		public void Zombify() { $/;"	m	class:Simulator.PieceDeliveryEvent
+availability	Node.cs	/^        public int  availability   = 0;$/;"	f	class:Simulator.PieceInfo
+blockSize	SimParameters.cs	/^		public static int blockSize = 256 * 8;                               \/\/ size is in kilo bits.$/;"	f	class:Simulator.SimParameters
+blockSizeInBits	SimParameters.cs	/^		public static long blockSizeInBits = blockSize << 10;                \/\/ size in bits... $/;"	f	class:Simulator.SimParameters
+bw	Choker.cs	/^        private float bw(ArrayList list, int i)$/;"	m	class:Simulator.Choker	file:
+bwProbabilities	SimParameters.cs	/^		public static SortedList bwProbabilities = new SortedList(new LinkCapComparer());$/;"	f	class:Simulator.SimParameters
+chokerInterval	SimParameters.cs	/^		public static int chokerInterval = 10000;                            \/\/ every 10 seconds$/;"	f	class:Simulator.SimParameters
+choosingPolicy	SimParameters.cs	/^		public static ChoosingPolicy choosingPolicy = ChoosingPolicy.LR;     \/\/ block choosing policy$/;"	f	class:Simulator.SimParameters
+cmdline_arguments	Main.cs	/^	public static ArrayList cmdline_arguments = new ArrayList();$/;"	f	class:Simulator.MainWrapper
+commonInit	Sim.cs	/^        private void commonInit() $/;"	m	class:Simulator.Sim	file:
+doHackyHashReplacement	SimParameters.cs	/^                public static bool doHackyHashReplacement = false;$/;"	f	class:Simulator.SimParameters
+doOptUnchoke	SimParameters.cs	/^		public static bool doOptUnchoke = true;                              $/;"	f	class:Simulator.SimParameters
+doneServing	Node.cs	/^		public bool doneServing = false; $/;"	f	class:Simulator.Node
+down_bw	Node.cs	/^        public float down_bw, up_bw;$/;"	f	class:Simulator.LinkCap
+downl	Transfer.cs	/^		ArrayList downl = new ArrayList();$/;"	f	class:Simulator.Transfer	file:
+downloaded_bits	Node.cs	/^        public long downloaded_bits = 0;$/;"	f	class:Simulator.PieceInfo
+dtm_rng	Sim.cs	/^        public  static Random rng, dtm_rng, rnd_rng;$/;"	f	class:Simulator.Sim
+fairness	SimParameters.cs	/^		public static FairnessMechanism fairness = FairnessMechanism.BITTORRENT_TFT;                 \/\/ default BitTorrent mechanism$/;"	f	class:Simulator.SimParameters
+fairnessThreshold	SimParameters.cs	/^		public static int  fairnessThreshold = 2;                            \/\/ number of "blocks" a connection can be off by$/;"	f	class:Simulator.SimParameters
+fileSize	SimParameters.cs	/^		public static int fileSize = 100 * 1024 * 8;                         \/\/ size is in kilo bits. $/;"	f	class:Simulator.SimParameters
+fired	PieceDeliveryEvent.cs	/^		ArrayList fired = new ArrayList();$/;"	f	class:Simulator.PieceDeliveryEvent	file:
+firetime	Transfer.cs	/^		ArrayList firetime = new ArrayList();$/;"	f	class:Simulator.Transfer	file:
+forceKills	SimParameters.cs	/^		public static bool  forceKills = false;                    \/\/ if true, we make nodes leave according to the staytime model or trace $/;"	f	class:Simulator.SimParameters
+graphPrintInterval	SimParameters.cs	/^		public static long graphPrintInterval = 100000; \/\/ milliseconds$/;"	f	class:Simulator.SimParameters
+graph_stream	Logger.cs	/^		public static  StreamWriter graph_stream = null;$/;"	f	class:Simulator.Logger
+have	Node.cs	/^        public bool have           = false;$/;"	f	class:Simulator.PieceInfo
+head	EventQueue.cs	/^		ListElement head;$/;"	f	class:Simulator.TreeNode	file:
+is_downloading	Node.cs	/^        public bool is_downloading = false;$/;"	f	class:Simulator.PieceInfo
+isbweq	Choker.cs	/^        private bool isbweq(float a, float b)$/;"	m	class:Simulator.Choker	file:
+joinRate	SimParameters.cs	/^		public static float joinRate = 2;                         \/\/ joins per second$/;"	f	class:Simulator.SimParameters
+joinTime	SimParameters.cs	/^		public static long   joinTime = 700 * 1000;          \/\/ $/;"	f	class:Simulator.SimParameters
+left	EventQueue.cs	/^		TreeNode left, right;$/;"	f	class:Simulator.TreeNode	file:
+log	Logger.cs	/^		public static void log(string s, params object[] args) $/;"	m	class:Simulator.Logger
+lossRate	SimParameters.cs	/^		public static double lossRate = 0.01;                \/\/ we use the TCP throughput equation to model transfer time on a link with this loss rate.$/;"	f	class:Simulator.SimParameters
+m_AmSeed	Node.cs	/^        private bool      m_AmSeed      = false;$/;"	f	class:Simulator.Node	file:
+m_BecameSeed	Node.cs	/^		private bool m_BecameSeed = false;$/;"	f	class:Simulator.Node	file:
+m_Choker	Choker.cs	/^            Choker m_Choker = null;$/;"	f	class:Simulator.Choker.PCEvent	file:
+m_Choker	Node.cs	/^        Choker m_Choker = null;$/;"	f	class:Simulator.ChokerEvent	file:
+m_Choker	Node.cs	/^        private Choker    m_Choker      = null;$/;"	f	class:Simulator.Node	file:
+m_Choking	Connection.cs	/^        bool          m_Choking, m_Interested;$/;"	f	class:Simulator.Connection	file:
+m_ChoosingOrder	Node.cs	/^        private int[] m_ChoosingOrder = null;$/;"	f	class:Simulator.Node	file:
+m_Conn	Node.cs	/^        Connection m_Conn = null;$/;"	f	class:Simulator.ChokeConnectionEvent	file:
+m_Connection	Node.cs	/^        Connection m_Connection = null;$/;"	f	class:Simulator.TryDownloadEvent	file:
+m_Connections	Choker.cs	/^        private ArrayList m_Connections = null;      \/\/ This is a special connection array; needed in order to do some funky things$/;"	f	class:Simulator.Choker	file:
+m_Connections	Node.cs	/^        private Hashtable m_Connections = null;$/;"	f	class:Simulator.Node	file:
+m_Distance	Node.cs	/^        public  int       m_Distance;$/;"	f	class:Simulator.Node
+m_Done	Choker.cs	/^        private bool      m_Done = false;$/;"	f	class:Simulator.Choker	file:
+m_DownMeasurer	Connection.cs	/^        NewRateMeasurer m_UpMeasurer = null, m_DownMeasurer = null;$/;"	f	class:Simulator.Connection	file:
+m_Downloaded	Connection.cs	/^        long          m_Downloaded = 0, m_Uploaded = 0;$/;"	f	class:Simulator.Connection	file:
+m_Downloaded	Transfer.cs	/^		long               m_Size, m_Downloaded;$/;"	f	class:Simulator.Transfer	file:
+m_Downloads	Node.cs	/^        private ArrayList m_Downloads = null;$/;"	f	class:Simulator.Node	file:
+m_Event	Transfer.cs	/^		PieceDeliveryEvent m_Event;$/;"	f	class:Simulator.Transfer	file:
+m_FinishedPieces	Node.cs	/^        private int       m_FinishedPieces = 0;$/;"	f	class:Simulator.Node	file:
+m_FireTime	PieceDeliveryEvent.cs	/^		long        m_FireTime;$/;"	f	class:Simulator.PieceDeliveryEvent	file:
+m_Fired	PieceDeliveryEvent.cs	/^		bool        m_Fired;$/;"	f	class:Simulator.PieceDeliveryEvent	file:
+m_ID	Node.cs	/^        private  int       m_ID;                \/\/ unique identifier of the node$/;"	f	class:Simulator.Node	file:
+m_Interested	Connection.cs	/^        bool          m_Choking, m_Interested;$/;"	f	class:Simulator.Connection	file:
+m_Invocations	Choker.cs	/^        private int       m_Invocations = 0;$/;"	f	class:Simulator.Choker	file:
+m_IsDownloading	Connection.cs	/^        bool          m_IsDownloading = false;$/;"	f	class:Simulator.Connection	file:
+m_JoinTime	Node.cs	/^        public  long      m_JoinTime, m_LifeTime;$/;"	f	class:Simulator.Node
+m_LastRateChangeTime	Transfer.cs	/^		long               m_LastRateChangeTime;$/;"	f	class:Simulator.Transfer	file:
+m_LastUpdate	RateMeasurer.cs	/^		long   m_LastUpdate  = 0;$/;"	f	class:Simulator.NewRateMeasurer	file:
+m_LastUpdated	RateMeasurer.cs	/^		private int m_LastUpdated = -1;$/;"	f	class:Simulator.RateMeasurer	file:
+m_LifeTime	Node.cs	/^        public  long      m_JoinTime, m_LifeTime;$/;"	f	class:Simulator.Node
+m_LinkCap	Node.cs	/^        private LinkCap   m_LinkCap;            \/\/ link capacities$/;"	f	class:Simulator.Node	file:
+m_LinkDemux	Node.cs	/^        private DemuxManager m_LinkDemux = null;$/;"	f	class:Simulator.Node	file:
+m_Local	Connection.cs	/^        Node          m_Local, m_Remote;$/;"	f	class:Simulator.Connection	file:
+m_NPieces	Node.cs	/^        private int       m_NPieces = 0, m_ToFinishPieces = 0;$/;"	f	class:Simulator.Node	file:
+m_Node	Choker.cs	/^        Node m_Node = null;$/;"	f	class:Simulator.OracleRateComparer	file:
+m_Node	Choker.cs	/^        Node m_Node = null;$/;"	f	class:Simulator.PreferredComparer	file:
+m_Node	Choker.cs	/^        private Node      m_Node = null;             \/\/ My controller$/;"	f	class:Simulator.Choker	file:
+m_Node	DemuxManager.cs	/^		Node         m_Node = null;         \/\/ the node I am associated with$/;"	f	class:Simulator.DemuxManager	file:
+m_Node	Node.cs	/^            Node m_Node = null;$/;"	f	class:Simulator.Node.DoFinishEvent	file:
+m_Node	Node.cs	/^            Node m_Node = null;$/;"	f	class:Simulator.Node.SendLRUpdateEvent	file:
+m_Node	Node.cs	/^        Node m_Node = null;$/;"	f	class:Simulator.AnEvent	file:
+m_Node	Node.cs	/^        Node m_Node = null;$/;"	f	class:Simulator.MorePeersEvent	file:
+m_Node	Node.cs	/^        Node m_Node = null;$/;"	f	class:Simulator.TooManyPeersEvent	file:
+m_Node	Node.cs	/^        Node m_Node = null;$/;"	f	class:Simulator.TryDownloadEvent	file:
+m_Node	Node.cs	/^        public Node m_Node = null;$/;"	f	class:Simulator.PieceAvailComparer
+m_NumPiecesWanted	Connection.cs	/^        int           m_NumPiecesWanted = 0;$/;"	f	class:Simulator.Connection	file:
+m_OngoingQueue	Node.cs	/^        private ArrayList m_WaitingQueue = null, m_OngoingQueue = null;  \/\/ the waiting queue contains people who are potentially waiting for an upload from you$/;"	f	class:Simulator.Node	file:
+m_Oracle	Node.cs	/^        private Oracle    m_Oracle      = null;$/;"	f	class:Simulator.Node	file:
+m_Oracle	Sim.cs	/^        private Oracle m_Oracle = null;$/;"	f	class:Simulator.Sim	file:
+m_Ordering	Node.cs	/^            int[] m_Ordering;$/;"	f	class:Simulator.Node.ChoosingOrderComparer	file:
+m_Piece	Transfer.cs	/^		int                m_Piece;$/;"	f	class:Simulator.Transfer	file:
+m_PieceAvailComparer	Node.cs	/^		private PieceAvailComparer m_PieceAvailComparer = null;$/;"	f	class:Simulator.Node	file:
+m_PieceInfoArray	Node.cs	/^        private PieceInfo[] m_PieceInfoArray = null;$/;"	f	class:Simulator.Node	file:
+m_PieceInterests	Connection.cs	/^        bool[]        m_PieceInterests = null;$/;"	f	class:Simulator.Connection	file:
+m_Plist	Node.cs	/^		private int[] m_Plist = null;$/;"	f	class:Simulator.Node	file:
+m_Rate	RateMeasurer.cs	/^		float  m_Rate;$/;"	f	class:Simulator.NewRateMeasurer	file:
+m_Rate	Transfer.cs	/^		float              m_Rate;$/;"	f	class:Simulator.Transfer	file:
+m_Recipient	Transfer.cs	/^		Node               m_Sender, m_Recipient;$/;"	f	class:Simulator.Transfer	file:
+m_Remote	Connection.cs	/^        Node          m_Local, m_Remote;$/;"	f	class:Simulator.Connection	file:
+m_Samples	RateMeasurer.cs	/^		private float[] m_Samples = null;$/;"	f	class:Simulator.RateMeasurer	file:
+m_Seed	Node.cs	/^            Node m_Seed = null;$/;"	f	class:Simulator.Node.ServeCountComparer	file:
+m_Sender	Transfer.cs	/^		Node               m_Sender, m_Recipient;$/;"	f	class:Simulator.Transfer	file:
+m_SenderConnection	Transfer.cs	/^		Connection         m_SenderConnection; $/;"	f	class:Simulator.Transfer	file:
+m_SentBlocksAfterSeedify	Node.cs	/^		private int m_SentBlocksAfterSeedify = 0;$/;"	f	class:Simulator.Node	file:
+m_ServeCount	Node.cs	/^        private int[]     m_ServeCount = null;$/;"	f	class:Simulator.Node	file:
+m_ServeCountComparer	Node.cs	/^		private ServeCountComparer m_ServeCountComparer = null;$/;"	f	class:Simulator.Node	file:
+m_Simulator	Choker.cs	/^        private Sim       m_Simulator = null;$/;"	f	class:Simulator.Choker	file:
+m_Simulator	Node.cs	/^            Sim  m_Simulator = null;$/;"	f	class:Simulator.Node.SendLRUpdateEvent	file:
+m_Simulator	Node.cs	/^        private Sim       m_Simulator   = null;$/;"	f	class:Simulator.Node	file:
+m_Simulator	ProtocolMain.cs	/^            Sim m_Simulator = null;$/;"	f	class:Simulator.ProtocolSim.CreateNWBEvent	file:
+m_Simulator	ProtocolMain.cs	/^        Sim  m_Simulator = null;$/;"	f	class:Simulator.Oracle	file:
+m_Simulator	RateMeasurer.cs	/^		Sim    m_Simulator = null;$/;"	f	class:Simulator.NewRateMeasurer	file:
+m_Simulator	Stats.cs	/^		Sim    m_Simulator = null;$/;"	f	class:Simulator.GraphDumpEvent	file:
+m_Simulator	Stats.cs	/^		Sim    m_Simulator = null;$/;"	f	class:Simulator.UtilDumpEvent	file:
+m_Simulator	Transfer.cs	/^		Sim                m_Simulator;$/;"	f	class:Simulator.Transfer	file:
+m_Size	Transfer.cs	/^		long               m_Size, m_Downloaded;$/;"	f	class:Simulator.Transfer	file:
+m_ToFinishPieces	Node.cs	/^        private int       m_NPieces = 0, m_ToFinishPieces = 0;$/;"	f	class:Simulator.Node	file:
+m_TotalReceived	Node.cs	/^        private long      m_TotalReceived = 0;$/;"	f	class:Simulator.Node	file:
+m_TotalSent	Node.cs	/^        private long      m_TotalSent     = 0;$/;"	f	class:Simulator.Node	file:
+m_Transfer	PieceDeliveryEvent.cs	/^		Transfer    m_Transfer;$/;"	f	class:Simulator.PieceDeliveryEvent	file:
+m_UpMeasurer	Connection.cs	/^        NewRateMeasurer m_UpMeasurer = null, m_DownMeasurer = null;$/;"	f	class:Simulator.Connection	file:
+m_Upload	Connection.cs	/^        Transfer      m_Upload = null;$/;"	f	class:Simulator.Connection	file:
+m_Uploaded	Connection.cs	/^        long          m_Downloaded = 0, m_Uploaded = 0;$/;"	f	class:Simulator.Connection	file:
+m_Uploads	Node.cs	/^        private ArrayList m_Uploads = null;$/;"	f	class:Simulator.Node	file:
+m_WaitingQueue	Node.cs	/^        private ArrayList m_WaitingQueue = null, m_OngoingQueue = null;  \/\/ the waiting queue contains people who are potentially waiting for an upload from you$/;"	f	class:Simulator.Node	file:
+m_WindowLength	RateMeasurer.cs	/^		long   m_WindowLength = 0;$/;"	f	class:Simulator.NewRateMeasurer	file:
+m_WindowStart	RateMeasurer.cs	/^		long   m_WindowStart = 0;$/;"	f	class:Simulator.NewRateMeasurer	file:
+maxPeersThreshold	SimParameters.cs	/^		public static int maxPeersThreshold;                                 \/\/ re-request when #peers falls below this$/;"	f	class:Simulator.SimParameters
+maxUploads	SimParameters.cs	/^		public static int maxUploads = 5;                                    \/\/ '1' is the optimistic unchoke$/;"	f	class:Simulator.SimParameters
+measureBWinstantenously	SimParameters.cs	/^		public static bool measureBWinstantenously = false;                  \/\/ should we measure bandwidth instaneously? :)$/;"	f	class:Simulator.SimParameters
+minPeersThreshold	SimParameters.cs	/^		public static int minPeersThreshold;                                 \/\/ re-request when #peers falls below this$/;"	f	class:Simulator.SimParameters
+n	ProtocolMain.cs	/^        private Node n = null;$/;"	f	class:Simulator.KillNodeEvent	file:
+nInitialBlocks	SimParameters.cs	/^		public static int  nInitialBlocks = 0;      $/;"	f	class:Simulator.SimParameters
+nInitialPeers	SimParameters.cs	/^		public static int nInitialPeers = 40;                                \/\/ number of peers to return when the node first asks$/;"	f	class:Simulator.SimParameters
+nInitialSeeds	SimParameters.cs	/^		public static int nInitialSeeds = 1; $/;"	f	class:Simulator.SimParameters
+nRateSamples	SimParameters.cs	/^		public static int nRateSamples = 30;                                 \/\/ average the upload\/download rate over the last 'k' samples$/;"	f	class:Simulator.SimParameters
+nRefreshPeers	SimParameters.cs	/^		public static int nRefreshPeers;                                     \/\/ number of peers to return when a node re-requests$/;"	f	class:Simulator.SimParameters
+nevents	Sim.cs	/^        private long nevents;$/;"	f	class:Simulator.Sim	file:
+next	ListElement.cs	/^		public ListElement next;$/;"	f	class:Simulator.ListElement
+noSeedUnfinished	SimParameters.cs	/^		public static bool noSeedUnfinished = false;                         \/\/ should the seed NOT have unfinished transfers?$/;"	f	class:Simulator.SimParameters
+node_births	WorkloadProcessor.cs	/^	int node_births = 0;$/;"	f	class:Simulator.WorkloadProcessor	file:
+node_log	Logger.cs	/^		public static void node_log(Node node, params object[] args)$/;"	m	class:Simulator.Logger
+nodenum_pool	Sim.cs	/^        public static int nodenum_pool = 0;$/;"	f	class:Simulator.Sim
+nodes	Sim.cs	/^        private SortedList nodes;	\/\/ keeps track of nodes allocated in the simulator $/;"	f	class:Simulator.Sim	file:
+nwbBlocksPercentage	SimParameters.cs	/^                public static float  nwbBlocksPercentage = 85;                         \/\/ how many blocks should these nodes prepossess?$/;"	f	class:Simulator.SimParameters
+nwbLinkCap	SimParameters.cs	/^                public static LinkCap nwbLinkCap = null;$/;"	f	class:Simulator.SimParameters
+nwbOn	SimParameters.cs	/^                public static bool nwbOn     = false;                                \/\/ insert nodes with blocks $/;"	f	class:Simulator.SimParameters
+nwbPeriod	SimParameters.cs	/^                public static int  nwbPeriod = 300000;                               \/\/ how often to insert?$/;"	f	class:Simulator.SimParameters
+oracleInterval	SimParameters.cs	/^		public static long oracleInterval = 1000;  \/\/ milliseconds$/;"	f	class:Simulator.SimParameters
+originServerLoad	SimParameters.cs	/^                public static float originServerLoad = -1;                           \/\/ maximum #file copies to serve$/;"	f	class:Simulator.SimParameters
+outputFile	SimParameters.cs	/^		public static string outputFile = "default.out";$/;"	f	class:Simulator.SimParameters
+output_stream	Logger.cs	/^		private static StreamWriter output_stream = null;$/;"	f	class:Simulator.Logger	file:
+pfcBatchSize	SimParameters.cs	/^                public static int  pfcBatchSize = -1;                                \/\/ size of each batch$/;"	f	class:Simulator.SimParameters
+pfcEndTime	SimParameters.cs	/^                public static long pfcEndTime = -1;$/;"	f	class:Simulator.SimParameters
+pfcInterval	SimParameters.cs	/^                public static long pfcInterval = -1;                                 \/\/ insert batch every these many milliseconds$/;"	f	class:Simulator.SimParameters
+pfcLinkCap	SimParameters.cs	/^                public static LinkCap pfcLinkCap = null; $/;"	f	class:Simulator.SimParameters
+pfcOffset	SimParameters.cs	/^                public static long pfcOffset = -1;                                   \/\/ start @ this offset$/;"	f	class:Simulator.SimParameters
+position	EventQueue.cs	/^		long position;$/;"	f	class:Simulator.TreeNode	file:
+printInterval	SimParameters.cs	/^		public static long printInterval = 2000;   \/\/ milliseconds$/;"	f	class:Simulator.SimParameters
+printed	Node.cs	/^        public static bool printed = false;$/;"	f	class:Simulator.Node
+process	Choker.cs	/^            public void process(long timeNow)$/;"	m	class:Simulator.Choker.PCEvent
+process	Node.cs	/^            public void process(long timeNow) {$/;"	m	class:Simulator.Node.DoFinishEvent
+process	Node.cs	/^            public void process(long timeNow)$/;"	m	class:Simulator.Node.SendLRUpdateEvent
+process	Node.cs	/^        public void process(long timeNow) $/;"	m	class:Simulator.ChokeConnectionEvent
+process	Node.cs	/^        public void process(long timeNow) $/;"	m	class:Simulator.ChokerEvent
+process	Node.cs	/^        public void process(long timeNow)$/;"	m	class:Simulator.AnEvent
+process	Node.cs	/^        public void process(long timeNow)$/;"	m	class:Simulator.MorePeersEvent
+process	Node.cs	/^        public void process(long timeNow)$/;"	m	class:Simulator.TooManyPeersEvent
+process	Node.cs	/^        public void process(long timeNow)$/;"	m	class:Simulator.TryDownloadEvent
+process	PieceDeliveryEvent.cs	/^		public void process(long timeNow) $/;"	m	class:Simulator.PieceDeliveryEvent
+process	ProtocolMain.cs	/^            public void process(long timeNow) {$/;"	m	class:Simulator.ProtocolSim.CreatePFCBatchEvent
+process	ProtocolMain.cs	/^            public void process(long timeNow)$/;"	m	class:Simulator.ProtocolSim.CreateNWBEvent
+process	ProtocolMain.cs	/^        public void process(long timeNow) $/;"	m	class:Simulator.ScheduleSomeJoinsEvent
+process	ProtocolMain.cs	/^        public void process(long timeNow)$/;"	m	class:Simulator.CreateNodeEvent
+process	ProtocolMain.cs	/^        public void process(long timeNow)$/;"	m	class:Simulator.KillNodeEvent
+process	Sim.cs	/^        void process(long timeNow);$/;"	m	interface:Simulator.TimerEvent
+process	Stats.cs	/^		public void process(long timeNow)$/;"	m	class:Simulator.GraphDumpEvent
+process	Stats.cs	/^		public void process(long timeNow)$/;"	m	class:Simulator.UtilDumpEvent
+rarestFirstCutoff	SimParameters.cs	/^		public static int rarestFirstCutoff = 1;                             \/\/ how many pieces to get in "random" mode first$/;"	f	class:Simulator.SimParameters
+rateFudge	SimParameters.cs	/^		public static long rateFudge   = 5000;                               \/\/ when starting the measurement...$/;"	f	class:Simulator.SimParameters
+rateWindow	SimParameters.cs	/^		public static long rateWindow  = 20000;                              \/\/ window length (milliseconds)$/;"	f	class:Simulator.SimParameters
+rates	Transfer.cs	/^		ArrayList rates = new ArrayList();$/;"	f	class:Simulator.Transfer	file:
+right	EventQueue.cs	/^		TreeNode left, right;$/;"	f	class:Simulator.TreeNode	file:
+rnd	WorkloadProcessor.cs	/^	private static Random rnd = new Random(123);$/;"	f	class:Simulator.WorkloadProcessor	file:
+rnd_rng	Sim.cs	/^        public  static Random rng, dtm_rng, rnd_rng;$/;"	f	class:Simulator.Sim
+rng	Sim.cs	/^        public  static Random rng, dtm_rng, rnd_rng;$/;"	f	class:Simulator.Sim
+root	EventQueue.cs	/^		private TreeNode root = null;$/;"	f	class:Simulator.EventQueue	file:
+root_unique	Node.cs	/^        public static Hashtable root_unique = new Hashtable();$/;"	f	class:Simulator.Node
+s	WorkloadProcessor.cs	/^	public static Sim s = null;$/;"	f	class:Simulator.WorkloadProcessor
+s_GlobalAvailArray	Node.cs	/^        public static int[] s_GlobalAvailArray = null;$/;"	f	class:Simulator.Node
+s_GlobalChokingArray	Node.cs	/^        public static bool[,] s_GlobalChokingArray = null;$/;"	f	class:Simulator.Node
+sc_times	PieceDeliveryEvent.cs	/^		ArrayList sc_times = new ArrayList();$/;"	f	class:Simulator.PieceDeliveryEvent	file:
+scheduled	PieceDeliveryEvent.cs	/^		ArrayList scheduled = new ArrayList();$/;"	f	class:Simulator.PieceDeliveryEvent	file:
+seedBandwidth	SimParameters.cs	/^		public static int seedBandwidth = 3000;                              \/\/ upload capacity (in kbps)$/;"	f	class:Simulator.SimParameters
+seedLeavingProbability	SimParameters.cs	/^		public static double seedLeavingProbability = 0.2; $/;"	f	class:Simulator.SimParameters
+sim	ProtocolMain.cs	/^        public static Sim sim = null;$/;"	f	class:Simulator.ProtocolSim
+simulationTime	SimParameters.cs	/^		public static long   simulationTime = 700 * 1000;    \/\/ $/;"	f	class:Simulator.SimParameters
+simulator	Logger.cs	/^		private static Sim          simulator = null;$/;"	f	class:Simulator.Logger	file:
+smartSeed	SimParameters.cs	/^		public static bool smartSeed = false;                                \/\/ should the seed act smart?$/;"	f	class:Simulator.SimParameters
+spPairwiseTFT	SimParameters.cs	/^                public static bool spPairwiseTFT = false;                                 \/\/ do pairwise tft within the choker...$/;"	f	class:Simulator.SimParameters
+stayForBlocks	SimParameters.cs	/^		public static int stayForBlocks = 0; $/;"	f	class:Simulator.SimParameters
+stayTimeModel	SimParameters.cs	/^		public static StayTimeModel stayTimeModel = StayTimeModel.UNIFORM_STAYTIME;$/;"	f	class:Simulator.SimParameters
+stayTimeParams	SimParameters.cs	/^		public static string stayTimeParams = "uniform:200:400"; \/\/ this param string can change depending on the distribution$/;"	f	class:Simulator.SimParameters
+stayTimeParamsParsed	Sim.cs	/^        private static bool stayTimeParamsParsed = false;$/;"	f	class:Simulator.WorkloadGenerator	file:
+stayTimeParetoMax	Sim.cs	/^        private static double stayTimeParetoMin = 0, stayTimeParetoMax = 0;$/;"	f	class:Simulator.WorkloadGenerator	file:
+stayTimeParetoMin	Sim.cs	/^        private static double stayTimeParetoMin = 0, stayTimeParetoMax = 0;$/;"	f	class:Simulator.WorkloadGenerator	file:
+stayTimeUniformMax	Sim.cs	/^        private static int stayTimeUniformMin = 0, stayTimeUniformMax = 0;$/;"	f	class:Simulator.WorkloadGenerator	file:
+stayTimeUniformMin	Sim.cs	/^        private static int stayTimeUniformMin = 0, stayTimeUniformMax = 0;$/;"	f	class:Simulator.WorkloadGenerator	file:
+store	ListElement.cs	/^		public TimerEvent store;$/;"	f	class:Simulator.ListElement
+tail	EventQueue.cs	/^		ListElement tail;$/;"	f	class:Simulator.TreeNode	file:
+timeNow	EventQueue.cs	/^		private long timeNow = 0L;$/;"	f	class:Simulator.EventQueue	file:
+timeScheduled	ProtocolMain.cs	/^        private static long timeScheduled = 0;$/;"	f	class:Simulator.ProtocolSim	file:
+timed_stream	Logger.cs	/^		public static  StreamWriter timed_stream = null;$/;"	f	class:Simulator.Logger
+timemark	WorkloadProcessor.cs	/^	private static long timemark = 0;$/;"	f	class:Simulator.WorkloadProcessor	file:
+timenow	Sim.cs	/^        private long timenow;$/;"	f	class:Simulator.Sim	file:
+times	Transfer.cs	/^		ArrayList times = new ArrayList();$/;"	f	class:Simulator.Transfer	file:
+tmb	Node.cs	/^		bool tmb = SimParameters.trackerMatchesBws; $/;"	f	class:Simulator.MorePeersEvent	file:
+trackerMatchesBws	SimParameters.cs	/^		public static bool trackerMatchesBws = false;                        \/\/ should the tracker be smart in giving out nodes?$/;"	f	class:Simulator.SimParameters
+triggers	Sim.cs	/^        private EventQueue triggers;$/;"	f	class:Simulator.Sim	file:
+ulog	Logger.cs	/^		public static void ulog(string s, params object[] args) $/;"	m	class:Simulator.Logger
+up_bw	Node.cs	/^        public float down_bw, up_bw;$/;"	f	class:Simulator.LinkCap
+useDeterministicPseudoRandomness	SimParameters.cs	/^		public static bool useDeterministicPseudoRandomness = false;$/;"	f	class:Simulator.SimParameters
+utilDumpInterval	SimParameters.cs	/^		public static long utilDumpInterval = printInterval;                 \/\/ how often to print node utilization.$/;"	f	class:Simulator.SimParameters
+warn	Logger.cs	/^		public static void warn(string s)$/;"	m	class:Simulator.Logger
+workloadReader	WorkloadProcessor.cs	/^	private StreamReader workloadReader;$/;"	f	class:Simulator.WorkloadProcessor	file:

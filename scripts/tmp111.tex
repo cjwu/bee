@@ -1,0 +1,20 @@
+\documentclass[10pt]{article}
+\usepackage{fullpage}
+\usepackage[pdftex]{graphicx}
+\usepackage[pdftex,hypertexnames=false]{hyperref}
+
+\newcommand{\img}[2]{%
+\begin{figure}[h]
+\centering%
+\includegraphics[type=pdf,ext=pdf,read=pdf,width=0.9\columnwidth]{#1}
+\caption{#2}
+\label{fig:#1}
+\end{figure}
+}
+\def\prefix#1{.#1.}
+
+\begin{document}
+\listoffigures
+
+\section*{Relevant experiment details}
+\begin{verbatim}

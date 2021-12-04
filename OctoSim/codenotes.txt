@@ -1,0 +1,49 @@
+BlockPicker.cs 
+==============
+Skeleton file; nothing there.
+
+Choker.cs      
+RateMeasurer.cs
+===============
+Implements BitTorrent's choking protocol. Written form scratch. Based on 
+description of the protocol and implementation details found on 
+http://www.bittorrent.com/
+
+Connection.cs
+=============
+Maintains a connection to a peer. Written from scratch.
+
+DemuxManager.cs
+Transfer.cs
+===============
+Simulates fair sharing of fluid tcp flows. Specific to our simulator,
+hence completely ours.
+
+EventQueue.cs
+ListElement.cs
+WorkloadProcessor.cs
+Main.cs
+=============
+Inspired from the SkipNet code base which has already been released.
+Almost completely rewritten to suit our simulator needs. 
+
+FairnessEnforcer.cs
+===================
+Skeleton file; nothing there.
+
+Logger.cs
+Stats.cs
+=========
+Logging related functionality; highly specific to our case.
+
+Node.cs
+PieceDeliveryEvent.cs
+=====================
+Core BitTorrent functionality. Completely written from scratch.
+
+ProtocolMain.cs
+Sim.cs
+SimParameters.cs
+===============
+Simulator related code. Written from scratch, inspired from SkipNet code
+organization.

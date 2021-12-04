@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OctoSim">
+</Property><Property Name="方案檔" Value="D:\Research\MSR Simulator for the BitTorrent Protocol\OctoSim\OctoSim.sln">
+</Property><Property Name="Date" Value="2007年12月6日">
+</Property><Property Name="Time" Value="下午 18:12">
+</Property></Properties><Event ErrorLevel="0" Project="OctoSim" Source="OctoSim.csproj" Description="專案轉換成功">
+</Event><Event ErrorLevel="3" Project="OctoSim" Source="OctoSim.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="OctoSim.sln" Description="方案轉換成功">
+</Event><Event ErrorLevel="3" Project="" Source="OctoSim.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="OctoSim" Source="OctoSim.csproj" Description="掃描完成: 專案檔不需要升級。">
+</Event></UpgradeLog>
